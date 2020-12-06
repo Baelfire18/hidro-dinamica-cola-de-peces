@@ -1,0 +1,23 @@
+html { 
+    background: url('https://imagenes.20minutos.es/files/image_656_370/uploads/imagenes/2020/08/10/agua-de-mar.jpeg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+canvas {
+    background-color: white;
+    border: 1px solid black;
+}
+
+.column {
+  float: left;
+  width: 50%;
+}
+  
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
