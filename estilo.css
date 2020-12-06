@@ -4,6 +4,7 @@ html {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    font-family:'Cambria'
   }
 
 canvas {
@@ -13,11 +14,19 @@ canvas {
 
 .column {
   float: left;
-  width: 50%;
+  width: 33.33%;
 }
   
 .row:after {
   content: "";
   display: table;
   clear: both;
+}
+
+#button {
+  margin-top: 90%;
+}
+
+p {
+  width: 50%;
 }
